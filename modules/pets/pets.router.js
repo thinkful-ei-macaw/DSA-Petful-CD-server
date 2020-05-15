@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 });
 
 router.delete('/', json, (req, res) => {
-  Pets.dequeue('dogs');
+  Pets.dequeue(req.body.type);
   People.dequeue();
   res.status(200).json('Adopted')
 })
