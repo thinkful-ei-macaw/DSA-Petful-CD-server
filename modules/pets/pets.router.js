@@ -7,11 +7,15 @@ const People = require('../people/people.service')
 const router = express.Router()
 
 router.get('/', (req, res) => {
-  // Return all pets currently up for adoption.
-})
+  let response = Pets.get();
+
+  res.json(response)
+});
 
 router.delete('/', json, (req, res) => {
-  // Remove a pet from adoption.
+  Pets.dequeue('dogs');
+  People.dequeue();
+  res.status(200).json('Adopted')
 })
 
-module.exports = router
+module.exports = router;

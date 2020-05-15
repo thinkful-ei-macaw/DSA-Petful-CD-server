@@ -35,7 +35,7 @@ class Queue {
   }
 
   show() {
-    return this.first;
+    return this.first.value;
   }
 
   all() {
@@ -55,7 +55,7 @@ class Queue {
     }
     
     queueItems.push(node.value);
-    
+
     return queueItems;
   }
 }
