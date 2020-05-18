@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
 
 router.post('/', json, (req, res) => {
   People.enqueue(req.body.Name)
-  res.json('You have been added to the queue')
+  res.json('You have been added to the queue');
 })
 
 module.exports = router
