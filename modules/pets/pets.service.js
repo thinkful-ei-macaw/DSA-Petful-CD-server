@@ -23,6 +23,6 @@ module.exports = {
   },
 
   dequeue(type) {
-    pets[type].dequeue()
+    pets[type].enqueue(pets[type].dequeue())
   }
 }
