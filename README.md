@@ -10,7 +10,7 @@
   * Douglas Miner
 
 # Live Link:
-  * https://petful-douglas-connor.connormccormack.now.sh/
+  * https://dsa-petful-douglas-connor.connormccormack.now.sh/
 
 # Tech Stack (Server):
   * JavaScript
