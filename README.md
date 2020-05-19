@@ -32,7 +32,7 @@
   * Douglas Miner
 
 # Live Link:
-  * https://dsa-petful-douglas-connor.connormccormack.now.sh/
+  * https://dsa-petful-cd-client.connormccormack.now.sh/AdoptionPage
 
 # Tech Stack (Server):
   * JavaScript
